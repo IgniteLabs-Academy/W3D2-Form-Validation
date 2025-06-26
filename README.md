@@ -1,19 +1,21 @@
 # Week 3 - Day 2: Form Submission and Validation
 
 ## 🧠 Real-World Scenario
-You're building a contact or login form that validates user input before submitting.
+You're building a registration form that validates user input before submitting.
 
 ## 🎯 Task
-Create a form that includes:
-1. A text input and email input
-2. Required field validations
-3. Prevent submission if inputs are invalid
-4. Show error messages near invalid fields
+Create a registration form that includes:
+1. A required text input for name (must not be empty)
+2. A required email input (must be a valid email format)
+3. A required password input (minimum 6 characters)
+4. Show error messages near each invalid field
+5. Prevent submission if any input is invalid
+6. Show a success message in the DOM if all fields are valid
 
 ## 🧪 Testing & Scoring
 5 test cases x 20 points = 100 points total.
 
 ## 🚀 Steps
-1. Edit `index.html` and implement validation.
-2. Use JavaScript or HTML5 attributes (`required`, `type`, etc.).
-3. Reference the `expected-output.png` for layout.
+1. All logic and markup are in `index.html` (no separate JS file).
+2. Uses HTML5 validation attributes and custom JavaScript for error messages and password length.
+3. To test, open `index.html` in your browser and try submitting the form with various valid and invalid inputs.
